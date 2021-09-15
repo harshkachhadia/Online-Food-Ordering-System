@@ -1,0 +1,53 @@
+    body { 
+        padding-top: 70px;
+        background: url(Images/water.jpg);      
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;    
+
+    }
+
+    html,body{
+        width: 100%;
+        height: 100%;
+    }
+
+    .jumbotron {
+      color: white;
+      background: black;
+      margin-bottom: 0;
+    }
+
+    .jumbotron h1{
+    	font-size:55px;
+    }
+
+    
+    #About{
+        font-family: Great Vibes;
+        font-size: 100px;
+        text-align: center;
+    }
+
+    #dishes
+    {
+        font-family: Great Vibes;
+        font-size: 60px;
+        text-align: center;
+        color: white;
+    }
+
+    .thumbnail{
+        padding: 0;
+        border: 0;
+    }
+
+    .abt{
+        margin: auto auto;
+        padding: 40px;
+        height:auto;
+        background-color: white;
+        word-wrap: break-word;
+        font : 20px Raleway; text-align: center;
+    }

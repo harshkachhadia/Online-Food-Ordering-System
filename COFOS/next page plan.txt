@@ -1,0 +1,5 @@
+navbar
+hierarchy with back to prev position in page facility
+title/jumbotron
+carousel
+cateogy items-with mentioned styles

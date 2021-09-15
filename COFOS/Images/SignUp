@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>SignUp</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">		
+	</head>
+
+	<body>
+
+		<div class="loginBox">
+			
+			<h2>Sign Up</h2>
+
+			<form  name="signup" action="" method="post" enctype="text/plain" onSubmit="window.alert('Registration Successful')">
+				<p>Full Name:</p>
+				<input type="text" name="name" autocomplete="on" formnovalidate="formnovalidate" placeholder="Enter your Name" required>
+				<p>Contact Number:</p>
+				<input type="text" name="phone" pattern="(?=.*\d).{10,10}" placeholder="Enter your Contact No." required>
+				<p>Email</p>
+				<input type="Email" name="" placeholder="Enter Email" required>
+				<p>Password</p>
+				<input type="password" name="" placeholder="••••••" required>
+				<input type="submit" name="" value="Sign In">
+				<a href="Forget.html">Forget Password</a>
+			</form>
+
+		</div>
+		<script type="text/javascript" src="bootstrap/js/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>		
+	</body>
+</html>

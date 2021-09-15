@@ -1,0 +1,24 @@
+login page
+signup page
+contact
+product details
+cart page
+checkout page
+admin page
+tracking page
+feedback page
+
+
+combine login signup dropdown details tab
+
+one page theme for all prodcuts
+
+dynamic product manipulation
+
+database
+name
+email
+number
+password
+liked items
+prev orders

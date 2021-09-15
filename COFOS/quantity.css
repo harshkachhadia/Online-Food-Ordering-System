@@ -1,0 +1,53 @@
+   .quantity .input-text.qty {
+    width: 33px;
+    height: 39px;
+    box-sizing: content-box;
+    padding: 0 5px;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #efefef;
+   }
+   
+   .buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; }
+   
+   .quantity input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+   }
+   
+   .quantity .minus,
+   .quantity .plus {
+    padding: 7px 10px 8px;
+    height: 41px;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    cursor:pointer;}
+   
+   .quantity .minus {
+    border-right: 0; }
+   
+   .quantity .plus {
+    border-left: 0; }
+   
+   .quantity.buttons_added .minus:hover,
+   .quantity.buttons_added .plus:hover {
+    background: #eeeeee; }
+   
+   .quantity input::-webkit-outer-spin-button,
+   .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; }
+    
+    .quantity.buttons_added .minus:focus,
+   .quantity.buttons_added .plus:focus {
+    outline: none; }
+   
+   
